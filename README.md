@@ -1,4 +1,9 @@
 # Flow Aggregation
+
+### Prerequisite
+- Ensure you have Java and Maven installed
+- Maven installation guide: https://maven.apache.org/install.html
+- if the `mvn -v` command does not work, please try to set the path using `export PATH=/opt/apache-maven-<versionNumber>/bin:$PATH`
  
 ### How to build
 - cd to the folder and you should see a file `pom.xml`
