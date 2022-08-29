@@ -13,7 +13,6 @@ public class FlowRequest {
     int hour;
 
     public FlowRequest() {
-
     }
 
     public FlowRequest(String srcApp, String destApp, String vpcId,
