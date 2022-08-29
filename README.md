@@ -21,7 +21,7 @@
 
 ### How to run
 - `java -cp target/flow-aggregation-1.0-SNAPSHOT-jar-with-dependencies.jar com.colemantung.app.App`
-- The server will be ran at http://localhost:7070/
+- The server will be run at http://localhost:7070/
 - if the port is being using by another program, run `sudo lsof -i :7070` and `kill -9 <PID>` to kill that program
 
 ### Example requests
