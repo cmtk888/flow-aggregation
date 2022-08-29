@@ -15,7 +15,14 @@ public class App {
         });
 
         app.post("/flows", ctx -> {
-            FlowRequest[] flowRequests = ctx.bodyAsClass(FlowRequest[].class);
+            FlowRequest[] flowRequests = new FlowRequest[0];
+            try {
+                flowRequests = ctx.bodyAsClass(FlowRequest[].class);
+            } catch (Exception e) {
+                ctx.result("Invalid input.  Please revise the request and try again.");
+                return;
+            }
+            
             FlowDataRoot flowDataRoot = FlowDataRoot.getInstance();
             String result = "";
             for (FlowRequest fr : flowRequests) {
