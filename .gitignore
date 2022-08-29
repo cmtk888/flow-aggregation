@@ -1,0 +1,8 @@
+
+*.xml
+*.class
+*.lst
+*.txt
+flow-aggregation/target/maven-archiver/pom.properties
+*.jar
+*.iml
