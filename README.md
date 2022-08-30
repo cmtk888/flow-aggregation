@@ -1,5 +1,7 @@
 # Flow Aggregation
 
+##### Please read the design doc before proceeding.
+
 ### Demo server
 - A demo server is running on EC2: http://ec2-54-176-103-211.us-west-1.compute.amazonaws.com:7070/
 - Example GET Request: `curl "http://ec2-54-176-103-211.us-west-1.compute.amazonaws.com:7070/flows?hour=1"`
